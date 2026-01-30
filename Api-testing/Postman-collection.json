@@ -1,1 +1,26 @@
 
+# 🌐 API Testing Report (Postman)
+
+## API Tested
+https://reqres.in/
+
+---
+
+## Endpoints Covered
+
+### ✅ GET Users List
+- Endpoint: `/api/users?page=2`
+- Expected: Status 200 + list of users
+- Result: Passed
+
+---
+
+### ✅ POST Create User
+- Endpoint: `/api/users`
+- Body:
+
+```json
+{
+  "name": "Leo",
+  "job": "QA Tester"
+}
