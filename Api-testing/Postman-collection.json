@@ -24,3 +24,9 @@ https://reqres.in/
   "name": "Leo",
   "job": "QA Tester"
 }
+
+---
+
+- Expected: Status 201 + user created
+
+- Result: Passed
